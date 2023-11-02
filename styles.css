@@ -1,0 +1,25 @@
+body {
+    width:80%;
+    margin:100px auto;
+    background: rgb(238, 238, 238);
+}
+
+ul {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    padding:10px;
+    vertical-align: middle; /* works only on items with inline-block */
+}
+
+img {
+    max-width: 300px;
+    border-width: 0.4rem;
+    border-color:black;
+    border-style: solid;
+    padding:15px;
+}
